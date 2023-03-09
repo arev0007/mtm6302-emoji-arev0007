@@ -36,6 +36,15 @@ body{
 .button1:hover{
     background-color: rgb(232, 136, 10);
 }
+
+#container:hidden{
+display: none;
+}
+#container{
+    visibility: hidden;
+    display: block;
+}
+
 #container p{
     border: 1px solid rgb(174, 174, 169);
     padding:40px;
