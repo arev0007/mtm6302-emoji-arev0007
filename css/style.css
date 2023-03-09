@@ -11,16 +11,13 @@ body{
     padding-left:30px;
     padding-right:30px;
     background-color: #fdfdfd;
-
 }
 .title{
     font-family: 'Courier New', Courier, monospace;
     padding:20px;
     text-align: center;
     text-transform: uppercase;
-    
 }
-
 #container{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -34,26 +31,21 @@ body{
     padding:25px;
     margin-left: 10px;
     border-radius: 15px;
-    
 }
 .button1:hover{
     background-color: rgb(232, 136, 10);
 }
-
 #container:hidden{
-display: none;
+    display: none;
 }
 #container{
     visibility: hidden;
     display: block;
 }
-
 #container p{
     border: 1px solid rgb(174, 174, 169);
     padding:40px;
-
 }
-
 p span{
     font-size: 40px;
     padding:10px;
@@ -69,9 +61,6 @@ p span{
     }
 
 }
-
-
-
 
 @media screen and (min-width: 900px){
     #container{
