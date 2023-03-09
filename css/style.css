@@ -26,22 +26,6 @@ body{
     text-align: center;
 }
 
-.button1{
-    background-color: rgb(252, 170, 4);
-    padding:25px;
-    margin-left: 10px;
-    border-radius: 15px;
-}
-.button1:hover{
-    background-color: rgb(232, 136, 10);
-}
-#container:hidden{
-    display: none;
-}
-#container{
-    visibility: hidden;
-    display: block;
-}
 #container p{
     border: 1px solid rgb(174, 174, 169);
     padding:40px;
