@@ -1,0 +1,73 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+box-sizing: inherit;
+}
+body{
+    margin: 0 auto;
+    padding-left:30px;
+    padding-right:30px;
+    background-color: #fdfdfd;
+
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    padding:20px;
+    text-align: center;
+    
+}
+
+#container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding:10px;
+    text-align: center;
+}
+
+.button1{
+    background-color: rgb(252, 170, 4);
+    padding:20px;
+    border-radius: 15px;
+}
+.button1:hover{
+    background-color: rgb(232, 136, 10);
+}
+#container p{
+    border: 1px solid rgb(174, 174, 169);
+    padding:40px;
+
+}
+
+p span{
+    font-size: 40px;
+    padding:10px;
+}
+
+@media screen and (min-width: 760px){
+    #container{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        padding:10px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 900px){
+    #container{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        gap: 20px;
+        padding:10px;
+        text-align: center;
+    }
+
+}
