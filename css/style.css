@@ -17,6 +17,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     padding:20px;
     text-align: center;
+    text-transform: uppercase;
     
 }
 
@@ -30,8 +31,10 @@ body{
 
 .button1{
     background-color: rgb(252, 170, 4);
-    padding:20px;
+    padding:25px;
+    margin-left: 10px;
     border-radius: 15px;
+    
 }
 .button1:hover{
     background-color: rgb(232, 136, 10);
